@@ -1,0 +1,15 @@
+[project]
+name = "competitive-intel-monitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.79.0",
+    "dotenv>=0.9.9",
+    "langchain>=1.2.10",
+    "langgraph>=1.0.8",
+    "mcp>=1.26.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]

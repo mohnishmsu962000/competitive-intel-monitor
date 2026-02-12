@@ -1,0 +1,10 @@
+cat > .gitignore << EOF
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+data/
+*.log
+EOF
